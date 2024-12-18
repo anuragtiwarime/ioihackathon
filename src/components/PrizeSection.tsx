@@ -30,7 +30,7 @@ const PrizeSection = () => {
       <div className="text-center bg-purple-50 p-6 rounded-lg">
         <h4 className="text-xl font-semibold mb-2">Additional Recognition</h4>
         <p className="text-gray-700">
-          Top 10 teams will receive certificates of recognition
+        Selected participants will get a chance to attend the IOI-sponsored 5-Day School of Startups Workshop in Noida—absolutely FREE!
         </p>
       </div>
     </div>

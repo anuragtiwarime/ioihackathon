@@ -17,6 +17,7 @@ function App() {
         <section className="space-y-8">
           <h2 className="text-3xl font-bold text-center mb-8">About the Event</h2>
           <AboutHackathon />
+        
         </section>
 
         {/* Event Details */}
@@ -38,7 +39,7 @@ function App() {
         </section>
 
         {/* Registration Form */}
-        <section className="max-w-4xl mx-auto space-y-8">
+        <section className="max-w-4xl mx-auto space-y-8" id="register">
           <h2 className="text-3xl font-bold text-center mb-8">Register Your Team</h2>
           <Register />
         </section>

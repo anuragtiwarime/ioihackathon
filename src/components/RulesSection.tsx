@@ -3,7 +3,7 @@ import { FileText, Download, CheckCircle } from 'lucide-react';
 
 const RulesSection = () => {
   const rules = [
-    'Teams must consist of exactly 6 members (5 SOT + 1 SOM)',
+    'Teams must consist of 6 members (5 SOT + 1 SOM)',
     'All team members must be currently enrolled students',
     
     'Code plagiarism will result in immediate disqualification',
@@ -21,16 +21,16 @@ const RulesSection = () => {
     <div className="bg-white rounded-lg shadow-lg p-8">
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-3">
-          <FileText className="h-6 w-6 text-purple-600" />
-          <h3 className="text-2xl font-bold">Rules & Guidelines</h3>
+          {/* <FileText className="h-6 w-6 text-purple-600" /> */}
+          {/* <h3 className="text-2xl font-bold">Rules & Guidelines</h3> */}
         </div>
-        <button
+        {/* <button
           onClick={handleDownload}
           className="flex items-center gap-2 bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors"
         >
           <Download className="h-5 w-5" />
           Download Brochure
-        </button>
+        </button> */}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
