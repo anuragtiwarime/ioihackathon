@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FileText, Download, CheckCircle } from 'lucide-react';
 
 const RulesSection = () => {
