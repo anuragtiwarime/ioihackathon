@@ -6,7 +6,7 @@ const EventHighlights = () => {
     const pdfUrl = '/Problem-statement.pdf'; // Replace with the correct file path
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'Sample_Problem_Statement.pdf'; // Set the file name for download
+    link.download = 'Problem-Statement.pdf'; // Set the file name for download
     link.click();
   }
   return (
