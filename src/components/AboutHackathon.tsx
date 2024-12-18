@@ -65,8 +65,8 @@ const AboutHackathon = () => {
               <h4 className="font-semibold">Contact Information</h4>
               <p className="text-gray-700">For queries, reach out to:</p>
               <ul className="text-gray-700 list-disc list-inside">
-                <li>Himanshu Sir</li>
-                <li>Raghav Sir</li>
+                <li>himanshu.shekhar@pw.live</li>
+                <li>raghav.gupta@pw.live</li>
               </ul>
             </div>
           </div>
