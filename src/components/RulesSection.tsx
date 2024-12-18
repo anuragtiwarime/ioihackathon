@@ -5,7 +5,7 @@ const RulesSection = () => {
   const rules = [
     'Teams must consist of exactly 6 members (5 SOT + 1 SOM)',
     'All team members must be currently enrolled students',
-    'Use of AI tools is permitted but must be disclosed',
+    
     'Code plagiarism will result in immediate disqualification',
     'Teams must present their solution within the given time frame',
     'All code must be original and created during the hackathon'
@@ -13,7 +13,7 @@ const RulesSection = () => {
 
   const handleDownload = () => {
     // In a real application, this would be a real PDF URL
-    const brochureUrl = '/hackathon-rules.pdf';
+    const brochureUrl = '#';
     window.open(brochureUrl, '_blank');
   };
 
