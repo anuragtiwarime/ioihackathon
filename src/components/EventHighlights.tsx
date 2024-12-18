@@ -3,7 +3,7 @@ import { Code2, Download, UtensilsCrossed } from 'lucide-react';
 
 const EventHighlights = () => {
   const handleDownloadPDF = () => {
-    const pdfUrl = '/Problem-statement.pdf'; // Replace with the correct file path
+    const pdfUrl = './public/Problem-Statement.pdf'; // Replace with the correct file path
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.download = 'Problem-Statement.pdf'; // Set the file name for download
