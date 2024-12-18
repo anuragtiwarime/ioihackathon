@@ -1,4 +1,4 @@
-import React from 'react';
+
 import HeroSection from './components/HeroSection';
 import AboutHackathon from './components/AboutHackathon';
 import EventHighlights from './components/EventHighlights';

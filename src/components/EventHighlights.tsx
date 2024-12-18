@@ -1,7 +1,14 @@
-import React from 'react';
+
 import { Code2, Download, UtensilsCrossed } from 'lucide-react';
 
 const EventHighlights = () => {
+  const handleDownloadPDF = () => {
+    const pdfUrl = '/Problem-statement.pdf'; // Replace with the correct file path
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'Sample_Problem_Statement.pdf'; // Set the file name for download
+    link.click();
+  }
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -27,8 +34,9 @@ const EventHighlights = () => {
           <Download className="h-6 w-6 text-purple-600" />
         </div>
         <h3 className="text-xl font-semibold mb-2">Problem Statement</h3>
-        <button className="text-purple-600 hover:text-purple-700 font-medium">
-          Download Sample PDF
+        <button className="text-purple-600 hover:text-purple-700 font-medium"
+        onClick={handleDownloadPDF}>
+          Download Problem Statement
         </button>
       </div>
     </div>
