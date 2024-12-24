@@ -92,7 +92,7 @@ const AboutHackathon = () => {
             <AlertCircle className="h-5 w-5 text-amber-600 flex-shrink-0" />
             <p className="text-sm text-amber-700">
               The problem statement will be released on-site during the event. Teams must register by
-              23rd December 2024 to participate.
+              24th December 2024 to participate.
             </p>
           </div>
     </div>

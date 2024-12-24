@@ -1,4 +1,3 @@
-
 import { Trophy } from 'lucide-react';
 import { PRIZES } from '../utils/constants';
 
@@ -10,7 +9,8 @@ const PrizeSection = () => {
   ];
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
+      {/* Prizes Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {prizes.map((prize) => (
           <div
@@ -26,12 +26,16 @@ const PrizeSection = () => {
           </div>
         ))}
       </div>
-      
-      <div className="text-center bg-purple-50 p-6 rounded-lg">
-        <h4 className="text-xl font-semibold mb-2">Additional Recognition</h4>
-        <p className="text-gray-700">
-        Selected participants will get a chance to attend the IOI-sponsored 5-Day School of Startups Workshop in Noida—absolutely FREE!
+
+      {/* Additional Recognition Section */}
+      <div className="relative bg-gradient-to-r from-purple-500 to-purple-600 p-8 rounded-lg shadow-lg text-center">
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-100 via-white to-purple-50 opacity-20 rounded-lg pointer-events-none"></div>
+        <h4 className="text-2xl font-semibold text-white mb-3">Additional Recognition</h4>
+        <p className="text-lg text-purple-50 mb-4">
+          Selected participants will get a chance to attend the <span className="font-bold">IOI-sponsored 5-Day School of Startups Workshop</span> in Noida—
+          <span className="font-extrabold text-yellow-300"> absolutely FREE!</span>
         </p>
+        
       </div>
     </div>
   );
