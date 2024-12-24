@@ -20,31 +20,45 @@ const HeroSection = () => {
           />
         </video>
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 h-full flex items-center justify-center">
-        <div className="text-center max-w-3xl">
+      <div className="relative z-10 container mx-auto px-6 h-full flex items-center justify-center">
+        <div className="text-center max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-            24-Hour Hackathon Challenge
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+              24-Hour Hackathon Challenge
+            </span>
           </h1>
-          <p className="text-xl mb-8 text-white">
-            Join us for an exciting hackathon where innovation meets opportunity
+          <p className="text-lg md:text-xl mb-10 text-gray-300 leading-relaxed">
+            Join us for an exciting hackathon where innovation meets opportunity.
           </p>
-          <div className="flex flex-wrap justify-center gap-6 mb-8">
-            <div className="flex items-center gap-2 text-white">
-              <Clock className="h-5 w-5" />
-              <span>December 27th, 2024</span>
+
+          {/* Event Details */}
+          <div className="flex flex-wrap justify-center gap-8 mb-10">
+            <div className="flex items-center gap-3 px-4 py-2 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg text-white">
+              <Clock className="h-6 w-6" />
+              <span className="text-lg">December 27th, 2024</span>
             </div>
-            <div className="flex items-center gap-2 text-white">
-              <MapPin className="h-5 w-5" />
-              <span>PW Institute of Innovation</span>
+            <div className="flex items-center gap-3 px-4 py-2 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg text-white">
+              <MapPin className="h-6 w-6" />
+              <span className="text-lg">PW Institute of Innovation</span>
             </div>
           </div>
-          <CountdownTimer />
-          <br />
-          <a href="#register" className="bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors"> Register Now</a>
+
+          {/* Countdown Timer */}
+          <div className="mb-8">
+            <CountdownTimer />
+          </div>
+
+          {/* Register Button */}
+          <a
+            href="#register"
+            className="bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition-transform"
+          >
+            Register Now
+          </a>
         </div>
       </div>
     </div>
