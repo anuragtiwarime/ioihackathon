@@ -54,10 +54,10 @@ const HeroSection = () => {
 
           {/* Register Button */}
           <a
-            href="#register"
+            href="#event-details"
             className="bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition-transform"
           >
-            Register Now
+            Download Problem Statement
           </a>
         </div>
       </div>
