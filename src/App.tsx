@@ -21,7 +21,7 @@ function App() {
         </section>
 
         {/* Event Details */}
-        <section className="space-y-8" id="event-details">
+        <section className="space-y-8" >
           <h2 className="text-3xl font-bold text-center mb-8">Event Highlights</h2>
           <EventHighlights />
         </section>

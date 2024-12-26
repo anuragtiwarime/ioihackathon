@@ -47,7 +47,7 @@ const EventHighlights = () => {
         </p>
       </div>
 
-      <div className="bg-white p-6 rounded-lg shadow-lg text-center overflow-hidden">
+      <div className="bg-white p-6 rounded-lg shadow-lg text-center overflow-hidden" id="event-details">
         <div className="relative h-48 -mx-6 -mt-6 mb-4">
           <img 
             src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=800"
