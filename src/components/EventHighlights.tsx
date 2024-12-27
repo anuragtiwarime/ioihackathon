@@ -2,7 +2,7 @@ import { Code2, Download, UtensilsCrossed } from 'lucide-react';
 
 const EventHighlights = () => {
   const handleDownloadPDF = () => {
-    const pdfUrl = 'https://docs.google.com/document/d/1YcRWtUqXy0ydjrxTsFZ9efO43pPoiWAcDsqH0G8mxFc/edit?usp=sharing';
+    const pdfUrl = 'https://drive.google.com/file/d/1CGNa3y8rZJJVY6Tg2PxV2WIWUmd4isBg/view?usp=sharing';
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.download = 'Problem-Statement.pdf';
