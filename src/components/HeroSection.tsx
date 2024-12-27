@@ -1,6 +1,5 @@
 import React from 'react';
 import { Clock, MapPin } from 'lucide-react';
-import CountdownTimer from './CountdownTimer';
 
 const HeroSection = () => {
   return (
@@ -47,9 +46,11 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Countdown Timer */}
+          {/* Live Now Badge */}
           <div className="mb-8">
-            <CountdownTimer />
+            <span className="px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-purple-600 to-pink-600 rounded-full shadow-md animate-pulse">
+              Live Now
+            </span>
           </div>
 
           {/* Register Button */}
