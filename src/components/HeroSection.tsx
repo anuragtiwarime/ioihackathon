@@ -55,10 +55,11 @@ const HeroSection = () => {
 
           {/* Register Button */}
           <a
-            href="#event-details"
+            href="https://pw.jotform.com/243601714263046"
             className="bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition-transform"
+            target="_blank"
           >
-            Download Problem Statement
+            Submit Your Project
           </a>
         </div>
       </div>
