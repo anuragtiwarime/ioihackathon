@@ -49,7 +49,7 @@ const HeroSection = () => {
           {/* Live Now Badge */}
           <div className="mb-8">
             <span className="px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-purple-600 to-pink-600 rounded-full shadow-md animate-pulse">
-              Live Now
+              Thank You For The Participation 🎉
             </span>
           </div>
 
@@ -59,7 +59,7 @@ const HeroSection = () => {
             className="bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition-transform"
             target="_blank"
           >
-            Submit Your Project
+            See You Soon
           </a>
         </div>
       </div>
